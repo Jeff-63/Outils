@@ -1,0 +1,13 @@
+EditorApplication.isPlaying;    //If the editor is playing or not
+
+using UnityEditor.TestTools;
+[Test]
+[RequirePlatformSupport(BuildTarget.StandaloneWindows64)]
+public void SomeFuncIWantToOnlyRunInWindows()
+{
+  //Do Windows stuff
+}
+
+
+EditorGUILayout.BeginFadeGroup 
+https://docs.unity3d.com/ScriptReference/EditorGUILayout.BeginFadeGroup.html
