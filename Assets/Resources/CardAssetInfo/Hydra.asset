@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7692e5be5ecdac8429b62b29400f591d, type: 3}
+  m_Name: Hydra
+  m_EditorClassIdentifier: 
+  name: Hydra
+  mana: 3
+  sprite: {fileID: 21300000, guid: e7e03a1f78ec5554fbf667418c3a43ad, type: 3}
+  textDesc: A F*ing Hydra !
+  color: {r: 0, g: 0.08320022, b: 1, a: 1}

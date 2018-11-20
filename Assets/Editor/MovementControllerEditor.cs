@@ -39,7 +39,6 @@ public class MovementControllerEditor : Editor
         return movementCntrl.FindProperty(string.Format(Ref_Array_Data_Path, index)).objectReferenceValue as Transform;
     }
 
-
     public void SetWaypoint(int index, Transform waypoint)
     {
         movementCntrl.FindProperty(string.Format(Ref_Array_Data_Path, index)).objectReferenceValue = waypoint; //Find the array property and set it

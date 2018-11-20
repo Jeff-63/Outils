@@ -13,7 +13,7 @@ public class MovementController : MonoBehaviour
 
     public void Update()
     {
-        /*if (waypoints.Length > 0)
+        if (waypoints.Length > 0)
         { 
             if (!waypoints[currentWaypointIndex] ||  Vector3.Distance(transform.position, waypoints[currentWaypointIndex].position) < .1f)
             {
@@ -26,9 +26,9 @@ public class MovementController : MonoBehaviour
                 transform.position = Vector3.SmoothDamp(transform.position, waypoints[currentWaypointIndex].position, ref velocity, .7f);
                 transform.rotation = Quaternion.LookRotation(waypoints[currentWaypointIndex].position - transform.position);
             }
-        }*/
+        }
 
-        transform.MoveForward(speed, Time.deltaTime);
+        //transform.MoveForward(speed, Time.deltaTime);
     }
 	
 }
